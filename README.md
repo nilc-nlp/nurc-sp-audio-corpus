@@ -21,3 +21,14 @@ The audios were either validated by annotators or transcripted for the first tim
 - age_range: The speaker's age range. Divided into 'I' (25 to 35), 'II' (36 to 55) and 'III' (over 55). Note that some audio sources have more than one speaker, so in that case the age range refers to the main speaker or speakers.
 - num_speakers: The number of speakers in the original source of the segment. This field was automatically writter by WhisperX, so it might not be accurate.
 - speaker_id: The speaker in the segment (each different speaker in the original source was given an integer id). This field was automatically writter by WhisperX, so it might not be accurate.
+
+## Downloads
+| Hugging Face |
+| ------------ |
+| [Download Link]() |
+
+## Citation
+
+## Partners / Sponsors / Funding
+
+## References
