@@ -25,7 +25,8 @@ The audios were either validated by annotators or transcripted for the first tim
 ## Downloads
 | Hugging Face |
 | ------------ |
-| [Download Link]() |
+| [Full corpus (comming soon)]() |
+| [Filtered corpus (comming soon)]() |
 
 ## Citation
 
