@@ -1,8 +1,6 @@
-# NURC-SP Corpus
+# NURC-SP Audio Corpus
 
-NURC-SP Corpus CORAA ASR is a publicly available dataset for Automatic Speech Recognition (ASR) in the Brazilian Portuguese language containing 239.68 hours of audios and their respective transcriptions (170k+ segmented audios). 
-
-The audios were either validated by annotators or transcripted for the first time aiming at the ASR task.
+NURC-SP Audio Corpus is a publicly available dataset for Automatic Speech Recognition (ASR) in the Brazilian Portuguese language containing 239.30 hours of audios and their respective transcriptions (170k+ segmented audios). The audios were automatically transcribed for the first time and manually revised aiming at the ASR task. The audios were either validated by annotators or transcripted for the first time aiming at the ASR task.
 
 ## Metadata
 
@@ -16,7 +14,7 @@ The audios were either validated by annotators or transcripted for the first tim
 - speech_genre: The speech genre of the original source of the segment. Divided into 'dialogue', 'interview' or 'lecture and talks'.
 - speech_style: The speech style of the original source of the segment. All segments are categorized as 'spontaneous speech'.
 - variety: The audio language. All segments are categorized as 'pt-br'.
-- accent: The speaker's accent. All segments are categorized as 'sp-city'. Note that some audio sources have more than one speaker, so in that case the accent refers to the main speaker or speakers.
+- accent: The speaker's accent. All segments are categorized as 'sp-city'. 
 - sex: The speaker's sex. Divided into 'F', 'M', 'F e F', 'F e M' and 'M e M' ('F' stands for female and 'M' stands for male). Note that some audio sources have more than one speaker, so in that case the sex refers to the main speaker or speakers.
 - age_range: The speaker's age range. Divided into 'I' (25 to 35), 'II' (36 to 55) and 'III' (over 55). Note that some audio sources have more than one speaker, so in that case the age range refers to the main speaker or speakers.
 - num_speakers: The number of speakers in the original source of the segment. This field was automatically writter by WhisperX, so it might not be accurate.
@@ -27,6 +25,13 @@ The audios were either validated by annotators or transcripted for the first tim
 | ------------ |
 | [Full corpus (comming soon)]() |
 | [Filtered corpus (comming soon)]() |
+
+Experiments:
+
+- [Code Wa2Vec2](https://github.com/Edresson/Wav2Vec-Wrapper)
+- [Code Distil](https://github.com/Edresson/Wav2Vec-Wrapper)
+
+Models trained in this corpus: Wav2Vec 2.0 XLSR-53 (multilingual pretraining) and Distil-Whisper.
 
 ## Citation
 
