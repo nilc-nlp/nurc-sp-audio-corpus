@@ -1,6 +1,6 @@
 # NURC-SP Audio Corpus
 
-NURC-SP Audio Corpus is a publicly available dataset for Automatic Speech Recognition (ASR) in the Brazilian Portuguese language containing 239.30 hours of audios and their respective transcriptions (170k+ segmented audios). The audios were automatically transcribed for the first time and manually revised aiming at the ASR task. The audios were either validated by annotators or transcripted for the first time aiming at the ASR task.
+NURC-SP Audio Corpus is a publicly available dataset for Automatic Speech Recognition (ASR) in the Brazilian Portuguese language containing 239.30 hours of audios and their respective transcriptions (170k+ segmented audios). The audios were automatically transcribed for the first time and manually revised aiming at the ASR task. 
 
 ## Metadata
 
