@@ -26,12 +26,31 @@ NURC-SP Audio Corpus is a publicly available dataset for Automatic Speech Recogn
 | [Full corpus (comming soon)]() |
 | [Filtered corpus (comming soon)]() |
 
-Experiments:
+## Experiments:
 
-- [Code Wa2Vec2](https://github.com/Edresson/Wav2Vec-Wrapper)
-- [Code Distil](https://github.com/Edresson/Wav2Vec-Wrapper)
+#### 1. Wav2Vec2-NURC-SP-1
 
-Models trained in this corpus: Wav2Vec 2.0 XLSR-53 (multilingual pretraining) and Distil-Whisper.
+Fine-tuned version of Wav2Vec 2.0 XLSR-53. The pre-trained model was fine-tuned with our train and validation subsets of (NURC-SP Audio Corpus)  in one GPU Nvidia DGX A100 80GB for 16 epochs, with an early stop of 10. The other settings were the same from https://github.com/nilc-nlp/CORAA, training code is available at https://github.com/Edresson/Wav2Vec-Wrapper
+
+Code (coming soon)
+
+#### 2. Wav2Vec2-NURC-SP-2
+
+This model is almost the same as (1), but using as start point the model trained for CORAA-V1 (https://github.com/nilc-nlp/CORAA) and made publicly available at https://huggingface.co/Edresson/wav2vec2-large-xlsr-coraa-portuguese
+
+Code (coming soon)
+
+#### 3. Distil-Whisper-NURC-SP
+
+This model is a distilled version of Whisper-Large-v3 (https://openai.com/index/whisper/), a model that has support for the Portuguese language, trained using our dataset with labels determined by Whisper-Large-v3, with the reason being that more knowledge can be passed from the teacher model to the student model this way. The model was trained with our train and validation subsets of (NURC-SP Audio Corpus) in one GPU Nvidia DGX A100 80GB for 48 epochs, following to the steps given by the Distil-Whisper at https://github.com/huggingface/distil-whisper/tree/main/training
+
+Code (coming soon)
+
+#### 4. Distil-Whisper-NURC-SP-Fine-Tuned
+
+This model is a fine-tuned version of (3) with our train and validation subsets of (NURC-SP Audio Corpus), following the steps recommended by the Distil-Whisper developers (https://huggingface.co/blog/fine-tune-whisper). It was also trained with 48 epochs in one GPU Nvidia DGX A100 80GB 
+
+Code (coming soon)
 
 ## Citation
 
