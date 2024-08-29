@@ -23,8 +23,7 @@ NURC-SP Audio Corpus is a publicly available dataset for Automatic Speech Recogn
 ## Downloads
 | Hugging Face |
 | ------------ |
-| [Full corpus (comming soon)]() |
-| [Filtered corpus (comming soon)]() |
+| [Full/Filtered corpus (comming soon)](https://huggingface.co/datasets/nilc-nlp/CORAA-NURC-SP-Audio-Corpus) |
 
 ## Experiments:
 
@@ -44,13 +43,13 @@ This model is almost the same as (1), but using as start point the model trained
 
 This model is a distilled version of Whisper-Large-v3 (https://openai.com/index/whisper/), a model that has support for the Portuguese language, trained using our dataset with labels determined by Whisper-Large-v3, with the reason being that more knowledge can be passed from the teacher model to the student model this way. The model was trained with our train and validation subsets of (NURC-SP Audio Corpus) in one GPU Nvidia DGX A100 80GB for 48 epochs, following to the steps given by the Distil-Whisper at https://github.com/huggingface/distil-whisper/tree/main/training
 
-[Code (coming soon)]()
+[Code (coming soon)](https://github.com/RodrigoLimaRFL/Distil-Whisper-NURC-SP-Docker)
 
 #### 4. Distil-Whisper-NURC-SP-Fine-Tuned
 
 This model is a fine-tuned version of (3) with our train and validation subsets of (NURC-SP Audio Corpus), following the steps recommended by the Distil-Whisper developers (https://huggingface.co/blog/fine-tune-whisper). It was also trained with 48 epochs in one GPU Nvidia DGX A100 80GB 
 
-[Code (coming soon)]()
+[Code (coming soon)](https://github.com/RodrigoLimaRFL/Distil-Whisper-NURC-SP-Docker)
 
 ## Citation
 
