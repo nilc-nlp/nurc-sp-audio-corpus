@@ -54,6 +54,6 @@ This model is a fine-tuned version of (3) with our train and validation subsets 
 
 ## Citation
 
-## Partners / Sponsors / Funding
+## Sponsors / Funding
 
 ## References
