@@ -23,7 +23,7 @@ NURC-SP Audio Corpus is a publicly available dataset for Automatic Speech Recogn
 ## Downloads
 | Hugging Face |
 | ------------ |
-| [Full/Filtered corpus (comming soon)](https://huggingface.co/datasets/nilc-nlp/CORAA-NURC-SP-Audio-Corpus) |
+| [Full/Filtered corpus](https://huggingface.co/datasets/nilc-nlp/CORAA-NURC-SP-Audio-Corpus) |
 
 ## Experiments:
 
