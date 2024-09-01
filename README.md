@@ -58,7 +58,7 @@ This model is a fine-tuned version of (3) with our train and validation subsets 
 
 [Model](https://huggingface.co/RodrigoLimaRFL/distil-whisper-nurc-sp-fine-tuned)
 
-[Code (coming soon)](https://github.com/RodrigoLimaRFL/Distil-Whisper-NURC-SP-Docker)
+[Code](https://github.com/RodrigoLimaRFL/Distil-Whisper-NURC-SP-Docker)
 
 ## Citation
 Lima, R., Leal, S.E., Candido Junior, A., Aluísio, S.M. A Large Dataset of Spontaneous Speech with the Accent Spoken in São Paulo for Automatic Speech Recognition Evaluation. Proceedings of the 34th Brazilian Conference on Intelligent Systems (BRACIS) (2024).
