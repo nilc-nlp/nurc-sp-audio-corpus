@@ -30,8 +30,8 @@ NURC-SP Audio Corpus is a publicly available dataset for Automatic Speech Recogn
 #### 1. Wav2Vec2-NURC-SP-1
 
 Fine-tuned version of Wav2Vec 2.0 XLSR-53. The pre-trained model was fine-tuned with our train and validation subsets of (NURC-SP Audio Corpus)  in one GPU Nvidia DGX A100 80GB for 16 epochs, with an early stop of 10. The other settings were the same from https://github.com/nilc-nlp/CORAA, training code is available at https://github.com/Edresson/Wav2Vec-Wrapper
-
-[Code (coming soon)]()
+[Model](https://huggingface.co/sidleal/Wav2Vec2-NURC-SP-1)
+[Code](https://github.com/sidleal/Wav2Vec-Wrapper)
 
 #### 2. Wav2Vec2-NURC-SP-2
 
