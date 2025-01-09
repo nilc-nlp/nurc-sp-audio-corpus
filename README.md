@@ -64,11 +64,19 @@ This model is a fine-tuned version of (3) with our train and validation subsets 
 Lima, R., Leal, S.E., Candido Junior, A., Aluísio, S.M. A Large Dataset of Spontaneous Speech with the Accent Spoken in São Paulo for Automatic Speech Recognition Evaluation. Proceedings of the 34th Brazilian Conference on Intelligent Systems (BRACIS) (2024).
 
 ````
-@InProceedings{{nurc-sp-audio-corpus-2024,
-    author = {Rodrigo Lima and Sidney Evaldo Leal and Arnaldo Candido Junior and Sandra Maria Aluisio},
-    title = {A Large Dataset of Spontaneous Speech with the Accent Spoken in São Paulo for Automatic Speech Recognition Evaluation},
-    booktitle  = {Proceedings of 34th Brazilian Conference on Intelligent Systems (BRACIS)},
-    year = {2024}
+@inProceedings{Lima2024Bracis,
+author={Lima, Rodrigo
+and Leal, Sidney
+and Candido Jr., Arnaldo
+and Alu{\'i}sio, Sandra Maria},
+editor={Paes, A.
+and Verri, F.A.N.},
+title={A Large Dataset of Spontaneous Speech with the Accent Spoken in São Paulo for Automatic Speech Recognition Evaluation},
+booktitle={Intelligent Systems: 34th Brazilian Conference, Bracis 2024, Bel{\'e}m Do Par{\'a}, Brazil, November 17-21, 2024, Proceedings, Part I},
+year={2025},
+publisher={Springer Nature Switzerland},
+isbn={9783031790287},
+url={https://books.google.com.br/books?id=g_n90AEACAAJ}
 }
 ````
 
